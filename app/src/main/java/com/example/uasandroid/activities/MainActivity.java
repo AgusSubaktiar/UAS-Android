@@ -64,5 +64,9 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         Intent intent = new Intent(this,PancongActivity.class);
         startActivity(intent);
     }
+    public void btn_handler_rotiBakar(View view) {
+        Intent intent = new Intent(this,RotiBakarActivity.class);
+        startActivity(intent);
+    }
 }
 
