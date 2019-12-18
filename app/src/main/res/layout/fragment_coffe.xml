@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/Pesan1"
+        android:id="@+id/Pesan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -108,7 +108,7 @@
         android:layout_marginTop="36dp"
         android:text="Pesen Kopi"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/Pesan1" />
+        app:layout_constraintTop_toBottomOf="@+id/Pesan" />
 
     <TextView
         android:id="@+id/textView7"
