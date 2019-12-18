@@ -56,5 +56,9 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         Intent intent = new Intent(this,KopiYorActivity.class);
         startActivity(intent);
     }
+    public void btn_handler_pesenkopi(View view) {
+        Intent intent = new Intent(this,PesenKopiActivity.class);
+        startActivity(intent);
+    }
 }
 
