@@ -68,7 +68,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <Button
-        android:id="@+id/Pesan"
+        android:id="@+id/Pesan3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -86,7 +86,7 @@
         android:layout_marginTop="48dp"
         android:text="RotI Bakar"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/Pesan" />
+        app:layout_constraintTop_toBottomOf="@+id/Pesan3" />
 
     <TextView
         android:id="@+id/textView13"
@@ -98,7 +98,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Button
-        android:id="@+id/Pesan1"
+        android:id="@+id/Pesan4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -116,7 +116,7 @@
         android:layout_marginTop="64dp"
         android:text="Bakmi Jawa"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/Pesan1" />
+        app:layout_constraintTop_toBottomOf="@+id/Pesan4" />
 
     <TextView
         android:id="@+id/textView15"
@@ -128,7 +128,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <Button
-        android:id="@+id/Pesan2"
+        android:id="@+id/Pesan5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
