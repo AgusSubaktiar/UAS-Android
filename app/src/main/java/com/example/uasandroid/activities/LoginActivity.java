@@ -31,6 +31,10 @@ public class LoginActivity extends AppCompatActivity {
 
     private Button mloginBtn;
 
+//    email dan password login firebase
+//    email : agussubag@gmail.com
+//    password : 123456
+
 
 
     private FirebaseAuth mAuth;
