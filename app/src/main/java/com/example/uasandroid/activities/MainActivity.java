@@ -4,8 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.example.uasandroid.R;
 import com.example.uasandroid.fragment.CoffeFragment;
@@ -44,6 +46,11 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 break;
         }
         return loadFragment(fragment);
+    }
+
+    public void btn_handler_kenangan(View view) {
+        Intent intent = new Intent(this,KenanganActivity.class);
+        startActivity(intent);
     }
 }
 
